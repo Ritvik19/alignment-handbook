@@ -1,7 +1,7 @@
 
 # Instructions to train Zephyr 2B Gemma with SFT
 
-This model is fine-tuned via SFT, we used the [`HuggingFaceH4/deita-10k-v0-sft`](https://huggingface.co/datasets/HuggingFaceH4/deita-10k-v0-sft) dataset, which was used to train Zephyr-7B-Gemma.
+This model is fine-tuned via SFT, we used the [`HuggingFaceH4/ultrachat_200k`](https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k) dataset, which is a heavily filtered version of the UltraChat dataset and was used to train Zephyr-7B-β.
 
 See below for commands to train these models.
 
