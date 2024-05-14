@@ -1,5 +1,5 @@
 # Model arguments
-model_name_or_path: h2oai/h2o-danube-1.8b-base
+model_name_or_path: h2oai/h2o-danube2-1.8b-base
 model_revision: main
 torch_dtype: bfloat16
 use_flash_attention_2: false
@@ -54,7 +54,7 @@ push_to_hub: false
 report_to:
 - tensorboard
 save_strategy: "steps"
-save_steps: 50
+save_steps: 20
 save_total_limit: 1
 seed: 42
 warmup_ratio: 0.1
